@@ -4,4 +4,4 @@
 
 |Runtime / Language|Link|
 |-|-|
-|.NET 7 - C#|[Program.cs](.\dotnet\CbData.Examples.GameProviders\Program.cs)|
+|.NET 7 - C#|[Program.cs](./dotnet/CbData.Examples.GameProviders/Program.cs)|
