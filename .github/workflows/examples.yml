@@ -9,10 +9,9 @@ on:
     branches: [ "main" ]
 
 jobs:
+
   dotnet:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
@@ -23,3 +22,13 @@ jobs:
       run: dotnet restore ./dotnet/
     - name: Build
       run: dotnet run --project ./dotnet/CbData.Examples.GameProviders.csproj --no-restore
+
+  java:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Java JDK
+      uses: actions/setup-java@v3.12.0
+      with:
+        java-version: '17'
+    - run: java java/Main.java
