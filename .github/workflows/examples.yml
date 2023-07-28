@@ -22,4 +22,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./dotnet/
     - name: Build
-      run: dotnet run ./dotnet/ --no-restore
+      run: dotnet run --project ./dotnet/CbData.Examples.GameProviders.csproj --no-restore
