@@ -1,5 +1,9 @@
 # cbData - Game Providers - Examples
 
+## Examples Build Status
+
+[![Examples](https://github.com/cbData/gameproviders-examples/actions/workflows/examples.yml/badge.svg)](https://github.com/cbData/gameproviders-examples/actions/workflows/examples.yml)
+
 ## Security, Authentication
 
 |Runtime / Language|Link|
