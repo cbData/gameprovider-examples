@@ -6,4 +6,4 @@
 |-|-|
 |openssl|Generate RSA keys with [generate_keys.ps1](./openssl/generate_keys.ps1)|
 |.NET 7 - C#|Create authentication header with [Program.cs](./dotnet/Program.cs)|
-|Java|Create authentication header with [Main.java](./java/Main.java)|
+|Java 17|Create authentication header with [Main.java](./java/Main.java)|
